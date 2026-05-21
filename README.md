@@ -1,4 +1,4 @@
-# 3-Year Software Engineering Blueprint :
+# 3-Year Software Engineering Progress :
 
 Welcome to my professional development tracking hub. This repository serves as a living portfolio documenting my transition from foundational computing concepts to enterprise-grade system architecture over a rigorous 3-year timeline.
 

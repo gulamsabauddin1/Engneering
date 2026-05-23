@@ -11,7 +11,14 @@ class Student_info(BaseModel):
     cource:str
     
 #creating a list which stores the student information with datatypes defined in the Student_info class    
-student:List[Student_info] = []
+student:List[Student_info] = [
+    {"pin": 1, "name": "Umar Shareef", "cource": "Computer Science"},
+    {"pin": 2, "name": "Sami Ahmed", "cource": "Information Technology"},
+    {"pin": 3, "name": "Luqman", "cource": "Data Science"},
+    {"pin": 4, "name": "Aqeel Hussain", "cource": "Artificial Intelligence"},
+    {"pin": 5, "name": "Gulam Saba Uddin", "cource": "Cyber Security"}
+
+]
 
 #get()=> to show data sent from server on website
 #post()=> to send data from website to server
@@ -48,5 +55,6 @@ def delete_student(pin:int):
     for i in range(len(student)):
         if student[i].pin == pin:
             student.pop(i)
-            return{"message":"Student deleted successfully!"}
+            return {"message":"Student deleted successfully!"}
+
     return {"message":"Student not found!"}

@@ -20,10 +20,10 @@ student:List[Student_info] = [
 
 ]
 
-#get()=> to show data sent from server on website
-#post()=> to send data from website to server
-#put()=> to update data on server from website
-#delete()=> to delete data on server from website 
+#get()=> to show data sent from server on website.
+#post()=> to send data from website to server.
+#put()=> to update data on server from website.
+#delete()=> to delete data on server from website. 
 
 
 
